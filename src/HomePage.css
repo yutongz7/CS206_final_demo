@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+.main {
+  background-color: #f0ebd8;
+  font-family: 'Inconsolata', monospace;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+}
+
+.title {
+  width: 80%;
+  font-family: 'Inconsolata', monospace;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #1d2d44;
+  top: 0px;
+  /* background-color: aqua; */
+}
+
+.button-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.pageButton {
+  background-color: white;
+  color: #3e5c76;
+  border: 2px solid #3e5c76;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.subtitle {
+  width: 80%;
+  font-family: 'Inconsolata', monospace;
+  font-size: 45px;
+  font-weight: semi-bold;
+  text-align: center;
+  color: #3e5c76;
+  top: 0px;
+  /* background-color: aqua; */
+}
+
+.pageButton:hover {
+  background-color: #f0f0f0;
+}
+
+.selectedPageButton {
+  background-color: #3e5c76;
+  color: white;
+  border: 2px solid #3e5c76;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.introduction {
+  width: 90%;
+  font-family: 'Inconsolata', monospace;
+  font-size: 22px;
+  font-weight: semi-bold;
+  text-align: center;
+  color: #1d2d44;
+  /* background-color: aqua; */
+}
+
+.main-content {
+  width: 60%;
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: normal;
+  /* background-color: #eec8c8; */
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+
+.demo-file {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
