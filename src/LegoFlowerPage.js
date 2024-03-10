@@ -2,7 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { loremIpsum } from "lorem-ipsum";
 import './LegoFlowerPage.css';
-import profile_image from './assets/CS206_profile_image.jpeg'
+import lego_flower_img from './assets/lego_rose_flower.jpeg'
+import lego_other_img from './assets/lego_rose_other.jpeg'
 
 
 function LegoFlowerPage() {
@@ -91,17 +92,13 @@ function LegoFlowerPage() {
             <div className='demo-file'>
               <iframe src="https://lumalabs.ai/embed/d7bb5e13-9ac4-41f6-95f7-05ecd14f3c23?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="550" height="400" frameborder="0"></iframe>
             </div>
-            <div className='demo-content'>
-              <p>The hips face the side of the mat. The hips and shoulders open to the side when moving from Warrior I to Warrior II. You'll also rotate your back foot, angling your toes at about 45 degrees. In both Warrior poses, aim to keep your front knee stacked over the ankle. Your front toes face forward.</p>
-            </div>
+            <img src={lego_flower_img} className="lego-flower-image" width={550}/>
           </div>
           <div className='single-demo-row'>
             <div className='demo-file'>
               <iframe src="https://lumalabs.ai/embed/6c3786fa-30d9-4960-ad02-af566e84c95f?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="550" height="400" frameborder="0"></iframe>
             </div>
-            <div className='demo-content'>
-              <p>The hips face the side of the mat. The hips and shoulders open to the side when moving from Warrior I to Warrior II. You'll also rotate your back foot, angling your toes at about 45 degrees. In both Warrior poses, aim to keep your front knee stacked over the ankle. Your front toes face forward.</p>
-            </div>
+            <img src={lego_other_img} className="lego-flower-image" width={550}/>
           </div>
         </div>
         <div className='main-section'>
