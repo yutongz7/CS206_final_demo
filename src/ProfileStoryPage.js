@@ -49,7 +49,7 @@ function ProfileStoryPage() {
               <p>Q1: When did you start dancing?</p>
             </div>
             <div className='text-content'>
-              <p> + [SELF-INTRO] I began dancing in high school, attending classes at dance studios during winter breaks and summer vacations.</p>
+              <p> My name is Tingyu Wang, currently pursuing a master's degree in Civil Engineering at Stanford University. Outside of my academic pursuits, I find joy in various activities, including dancing, reading, and simply relaxing on my sofa. Dancing has been a passion of mine since high school, where I first discovered the art form. During winter breaks and summer vacations, I dedicated myself to improving my skills by attending classes at local dance studios. This experience not only honed my dance abilities but also provided a refreshing break from my studies. As I continue my journey at Stanford, I look forward to exploring new opportunities and furthering my passion for dance and learning.</p>
             </div>
           </div>
         </div>
