@@ -44,7 +44,7 @@ function ActivityPage() {
         <div className='main-section'>
           <div className='main-text-section'>
             <div className='text-content'>
-            <p>Yoga, an ancient practice rooted in over 5,000 years of Indian philosophy, has evolved into a holistic approach to wellness, offering benefits that extend far beyond physical fitness. It encompasses a variety of practices, including physical postures (asanas), breathing techniques (pranayama), meditation (dhyana), and lifestyle principles, all aimed at harmonizing the body, mind, and spirit. In the fast-paced rhythm of modern life, yoga emerges as a sanctuary for those seeking solace from the stresses of daily routines, especially for students and professionals who demand a lot from their mental faculties.</p>
+            <p>Yoga, rooted in ancient Indian philosophy, has evolved into a holistic wellness approach, offering benefits beyond physical fitness. It includes practices like physical postures, breathing techniques, and meditation to harmonize body and mind. In today's fast-paced world, yoga is a sanctuary for those seeking relief from daily stresses, especially for students and professionals.</p>
             </div>
           </div>
         </div>
@@ -88,7 +88,8 @@ function ActivityPage() {
               <p>Incorporating Yoga into Your Routine</p>
             </div>
             <div className='text-content'>
-              <p>Adding yoga to your daily routine doesn't require hours of practice every day. Even short sessions of 10-15 minutes can be highly beneficial. Let's start from here:</p>
+              <p>Adding yoga to your daily routine doesn't require hours of practice every day. Even short sessions of 10-15 minutes can be highly beneficial. Angelina You, a first-year MS&E graduate student, started her yoga journey nearly a decade ago after being inspired by a dance class. She practices yoga casually, often using online resources like YouTube. Despite not practicing daily, yoga has been transformative for her, improving her mind-body connection. She values yoga for its ability to encourage a slower pace, enhance flexibility, and provide a space for meditation, leading to a profound sense of self-awareness. Her practice includes key poses like Warrior II, Downward-Facing Dog, Cobbler's Pose, and Cobra Pose, which form the foundation for her growth. Let's follow her lead and start from here:
+              </p>
             </div>
           </div>
         </div>
