@@ -37,7 +37,7 @@ function HomePage() {
         </div>
         <div className='button-row'>
              <button className="selectedPageButton">Home</button>
-            <button onClick={handleTutorialClick} className="pageButton">Tutorial Example</button>
+            <button onClick={handleTutorialClick} className="pageButton">Lego Tutorial</button>
             <button onClick={handleProfileStoryClick} className="pageButton">Profile Story Introduction</button>
             <button onClick={handleActivityIntroClick} className="pageButton">Activity Introduction</button>
             {/* <button onClick={handleClick} className="pageButton">Event Prep Introduction</button> */}

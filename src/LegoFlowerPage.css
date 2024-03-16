@@ -59,7 +59,7 @@
   border: 2px solid #3e5c76;
   border-radius: 20px;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 20px;
   cursor: pointer; 
   transition: all 0.3s ease;
   margin-left: 5px;
@@ -72,7 +72,7 @@
   border: 2px solid #3e5c76;
   border-radius: 20px;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 20px;
   cursor: pointer; 
   transition: all 0.3s ease;
   margin-left: 5px;
@@ -86,7 +86,7 @@
 .introduction {
   width: 90%;
   font-family: 'Inconsolata', monospace;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: semi-bold;
   text-align: center;
   color: #1d2d44;
@@ -96,7 +96,7 @@
 .introduction-section {
   width: 80%;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: normal;
   /* background-color: #eec8c8; */
   display: flex;
@@ -118,7 +118,7 @@
 .text-section {
   width: 60%;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: normal;
   /* background-color: #eec8c8; */
   display: flex;
@@ -131,24 +131,57 @@
 
 .text-subtitle {
   font-family: 'Inconsolata', monospace;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: bold;
   text-align: left;
   color: #3e5c76;
   margin-top: 5px;
   padding-left: 10px;
+  padding-top: 10px;
   /* background-color: #3e5c76; */
 }
 
-.text-content {
+.text-subtitle p {
   font-family: 'Inconsolata', monospace;
-  font-size: 24px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  color: #3e5c76;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  /* background-color: #3e5c76; */
+}
+
+.video-section {
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.video-section p {
+  margin-top: 20px;
+  padding: 30px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 25px;
+  text-align: center;
+}
+
+.divider {
+  width: 80%;
+  height: 10px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 25px;
   font-weight: normal;
   text-align: left;
   color: #3e5c76;
-  margin-top: -15px;
   margin-bottom: 5px;
-  padding-left: 10px;
+  padding-left: 30px;
 }
 
 .main-content {
@@ -173,7 +206,7 @@
 .main-section {
   width: 80%;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: normal;
   /* background-color: #eec8c8; */
   display: flex;
@@ -187,7 +220,7 @@
 .main-text-section {
   width: 100%;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: normal;
   /* background-color: #eec8c8; */
   display: flex;
@@ -196,6 +229,7 @@
   justify-content: left;
   text-align: left;
   margin-left: 40px;
+  padding-top: 10px;
 }
 
 .video-capation {
@@ -212,7 +246,7 @@
 .demo-section {
   width: 80%;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: normal;
   /* background-color: #eec8c8; */
   display: flex;
@@ -226,7 +260,7 @@
 .single-demo {
   width: 90%;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: normal;
   display: flex;
   flex-direction: column;
@@ -239,7 +273,7 @@
 .single-demo-column {
   width: 90%;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: normal;
   display: flex;
   flex-direction: column;
@@ -256,7 +290,7 @@
 .demo-content {
   width: 550px;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: normal;
   text-align: left;
   color: #3e5c76;
@@ -275,7 +309,7 @@
 
 .demo-title {
   font-family: 'Inconsolata', monospace;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   text-align: left;
   color: #3e5c76;
@@ -297,7 +331,7 @@
 .single-demo-row {
   width: 90%;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: normal;
   /* background-color: #eec8c8; */
   display: flex;
@@ -306,4 +340,8 @@
   justify-content: space-evenly;
   text-align: left;
   margin-top: 10px;
+}
+
+.end-section {
+  padding: 30px;
 }

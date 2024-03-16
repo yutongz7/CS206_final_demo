@@ -106,6 +106,17 @@
   /* background-color: #3e5c76; */
 }
 
+.text-subtitle p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #1d2d44;
+  margin-top: 5px;
+  padding-left: 10px;
+  /* background-color: #3e5c76; */
+}
+
 .background-image {
   width: 80%;
   height: auto;
@@ -155,4 +166,8 @@
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.end-section {
+  padding: 30px;
 }

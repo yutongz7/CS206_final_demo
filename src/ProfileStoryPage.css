@@ -132,3 +132,18 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.video-section {
+  padding-top: 30px;
+}
+
+.video-section p {
+  margin-top: 10px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 25px;
+  text-align: center;
+}
+
+.end-section {
+  padding: 30px;
+}

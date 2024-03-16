@@ -34,7 +34,7 @@ function ProfileStoryPage() {
         </div>
         <div className='button-row'>
              <button onClick={handleHomeClick} className="pageButton">Home</button>
-            <button onClick={handleTutorialClick} className="pageButton">Tutorial Example</button>
+            <button onClick={handleTutorialClick} className="pageButton">Lego Tutorial</button>
             <button onClick={handleProfileStoryClick} className="selectedPageButton">Profile Story Introduction</button>
             <button onClick={handleActivityIntroClick} className="pageButton">Activity Introduction</button>
             {/* <button onClick={handleActivityIntroClick} className="pageButton">Event Prep Introduction</button> */}
@@ -74,11 +74,13 @@ function ProfileStoryPage() {
             </div>
           </div>
         </div>
-
-        <video width="600" height="auto" controls>
-          <source src={exampleVideo} type="video/mp4" />
-        </video>
-        <p className='video-caption'>Recording of a dance at Stanford</p>
+        {/* <div className='divider'></div> */}
+        <div className='video-section'>
+          <video width="600" height="auto" controls>
+            <source src={exampleVideo} type="video/mp4" />
+          </video>
+          <p className='video-caption'>Recording of a dance at Stanford</p>
+        </div>
         <div className='main-section'>
           <div className='main-text-section'>
             <div className='text-subtitle'>
@@ -130,6 +132,8 @@ function ProfileStoryPage() {
             <div className='demo-file'>
               <iframe src="https://lumalabs.ai/embed/9f432a5e-bb4a-49bf-807c-d6793e917ae0?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="500" height="400" frameborder="20"></iframe>
             </div>
+          </div>
+          <div className='end-section'>
           </div>
         </div>
     </div>

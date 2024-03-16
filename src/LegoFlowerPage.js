@@ -36,7 +36,7 @@ function LegoFlowerPage() {
         </div>
         <div className='button-row'>
              <button onClick={handleHomeClick} className="pageButton">Home</button>
-            <button className="selectedPageButton">Tutorial Example</button>
+            <button className="selectedPageButton">Lego Tutorial</button>
             <button onClick={handleProfileStoryClick} className="pageButton">Profile Story Introduction</button>
             <button onClick={handleActivityIntroClick} className="pageButton">Activity Introduction</button>
             {/* <button onClick={handleActivityIntroClick} className="pageButton">Event Prep Introduction</button> */}
@@ -107,6 +107,8 @@ function LegoFlowerPage() {
               <p>The Lego rose is more than just a playful rendition of a natural flower; it's a testament to the creativity and versatility that Lego offers. Whether displayed under the soft rays of daylight or the vibrant glow of electronic light, it remains a captivating piece. By following the guide above, you can create a unique and enduring symbol of beauty and innovation. Enjoy the process of building and the endless joy it brings as a decorative masterpiece or a heartfelt gift.</p>
             </div>
           </div>
+        </div>
+        <div className='end-section'>
         </div>
     </div>
   );

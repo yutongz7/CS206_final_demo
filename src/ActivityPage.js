@@ -30,7 +30,7 @@ function ActivityPage() {
         </div>
         <div className='button-row'>
              <button onClick={handleHomeClick} className="pageButton">Home</button>
-            <button onClick={handleTutorialClick} className="pageButton">Tutorial Example</button>
+            <button onClick={handleTutorialClick} className="pageButton">Lego Tutorial</button>
             <button onClick={handleProfileStoryClick} className="pageButton">Profile Story Introduction</button>
             <button onClick={handleProfileStoryClick} className="selectedPageButton">Activity Introduction</button>
             {/* <button onClick={handleProfileStoryClick} className="pageButton">Event Prep Introduction</button> */}
@@ -153,6 +153,8 @@ function ActivityPage() {
               <p>In conclusion, yoga offers a powerful way to enhance your study habits, improve your health, and manage stress. By incorporating it into your daily routine, you can enjoy the myriad benefits that this ancient practice has to offer. Embrace yoga as a tool for personal growth and watch as it transforms your life, one pose at a time.</p>
             </div>
           </div>
+        </div>
+        <div className='end-section'>
         </div>
     </div>
   );
